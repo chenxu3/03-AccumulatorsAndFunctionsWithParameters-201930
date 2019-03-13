@@ -21,7 +21,7 @@ def main():
     run_test_fancy_sums_of_digits()
 
     # -------------------------------------------------------------------------
-    # TODO: 9. DO THIS LAST!
+    # Done: 9. DO THIS LAST!
     #    -- Uncomment the line of code below to run the main function
     #         in m4t_tester.py (do not make changes to it).
     #         It runs OUR tests on your code.
@@ -38,7 +38,7 @@ def main():
 def run_test_sum_of_digits():
     """ Tests the  sum_of_digits   function. """
     # -------------------------------------------------------------------------
-    # TODO: 2. Implement this TEST function, as follows:
+    # Done: 2. Implement this TEST function, as follows:
     #
     #  Step 1:  This TEST function tests the  sum_of_digits  function.
     #    So read the doc-string of the  sum_of_digits  function
@@ -216,12 +216,12 @@ def run_test_digits_in_power():
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 
- # Test 4:
+    # Test 4:
     expected = 9
     answer = digits_in_power(3,2)
     print('Test 4 expected:', expected)
     print('       actual:  ', answer)
- # Test 5:
+    # Test 5:
     expected = 10
     answer = digits_in_power(4,3)
     print('Test 5 expected:', expected)
@@ -253,7 +253,7 @@ def digits_in_power(n, k):
 def run_test_fancy_sums_of_digits():
     """ Tests the   fancy_sums_of_digits   function. """
     # -------------------------------------------------------------------------
-    # TODO: 7. Implement this function.
+    # Done: 7. Implement this function.
     #   It TESTS the  fancy_sums_of_digits  function defined below.
     #   Include at least **   3   ** tests.
     #
@@ -275,6 +275,11 @@ def run_test_fancy_sums_of_digits():
 
 
 def fancy_sums_of_digits(n):
+    # Test 1:
+    expected = 2
+    answer = digits_in_power(4, 3)
+    print('Test 5 expected:', expected)
+    print('       actual:  ', answer)
     """
     What comes in:  A positive integer n.
     What goes out:
@@ -299,7 +304,7 @@ def fancy_sums_of_digits(n):
             -- so this function returns 124309.
     """
     # -------------------------------------------------------------------------
-    # TODO: 8. Implement and test this function.
+    # Done: 8. Implement and test this function.
     #
     ###########################################################################
     # IMPORTANT: CALL, as many times as needed,

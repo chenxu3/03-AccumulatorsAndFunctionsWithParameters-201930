@@ -4,8 +4,8 @@ This module helps you understand:
   -- the difference between PRINT and RETURN
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Aaron Wilkin, their colleagues, and Chenxu Yang.
+"""  # Done: 1. PUT YOUR NAME IN THE ABOVE LINE.
 ###############################################################################
 #
 # TODO: 1.
@@ -57,8 +57,8 @@ def distance(point):
       If the argument is  rg.Point(3, 4)  this function returns 5.
     """
     # This code has an error, on purpose.  Do NOT fix it.
-    x_squared = point.x * point.x
-    y_squared = point.y * point.x
+    x_squared = math.sqrt(point.x)
+    y_squared = point.y * point.y
 
     return math.sqrt(x_squared + y_squared)
 
